@@ -1,0 +1,493 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-color: #8B0A1A;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #FFA07A;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+header:hover {
+    background: #380000;
+}
+
+main {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero {
+    background: url("../images/party.jpg") center center / cover no-repeat;
+    background-attachment: fixed;
+    padding: 5em 1em;
+    width: 100%;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 2.5em;
+    color: #FFA07A;
+    text-shadow: 2px 2px #000;
+}
+
+#hero h1 span {
+    font-size: 1.5em;
+    color: #ff564a;
+}
+span {
+    font-size: 40px;
+    color: #ff564a;
+    font-weight: bold;
+}
+section {
+    background-color: #1A1A1A;
+    padding: 2em;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #FFA07A;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.intro .button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #f10000;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.intro .button:active {
+    transform: translateY(3px);
+    box-shadow: 0 2px 0 #006599;
+}
+
+.intro .card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.intro .card {
+    flex: 1;
+    text-align: center;
+    font-size: 22px;
+}
+
+.intro .card img {
+    width: 90000px;
+    max-width: 300px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+.line span{
+    font-size: 20px;
+}
+#commission-info .car-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.cary {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.cary:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.inner {
+    padding: 20px;
+  }
+  .cap .container {
+    padding: 10px;
+    border: 1px solid #1b1b1b;
+    border-radius: 5px;
+    align-items: center;
+    background-color: #242424;
+  }
+  .imgs{
+    text-align: center;
+  }
+  .imgs img{
+    width: 400px;
+    align-items: center;
+    border-radius: 20%;
+    border: 7px solid;
+    margin: 10px;
+    border-bottom: #000;
+  }
+  /* Commissions Section */
+  .commission-type {
+    margin-bottom: 15px;
+  }
+  
+  .commission-type h2 {
+    font-size: 1.2em;
+  }
+  
+  .commission-type p {
+    color: #e9e9e9;
+    margin: 5px 0;
+  }
+  
+  /* Order Form Section */
+  #order-form {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  #order-form h2 {
+    color: #0056b3;
+  }
+  
+  #order-form p {
+    margin-bottom: 10px;
+  }
+  
+  #order-form ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  #order-form li {
+    margin-bottom: 5px;
+  }
+  
+  /* Terms of Service Section */
+  #tos-section {
+    font-size: 0.9em;
+    line-height: 1.4;
+  }
+  
+  /* Links */
+  a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+/* .car {
+    flex: 1 1 30%;
+    text-align: center;
+} */
+
+/* Gallery Section */
+#gallery {
+    padding: 50px 0;
+    width: 100%;
+    text-align: center;
+    background-color: #222222;
+}
+
+#gallery h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ff3737;
+    font-weight: bold;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
+}
+
+.item {
+    
+    width: 300px; /* Fixed width to keep cards uniform */
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+#gallery .card-container .item h2 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.item img {
+    /* width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    object-fit: cover; */
+    /* width: 220px;
+    height: 220px; */
+    border-radius: 50%;
+    object-fit: cover;
+        /* margin-top: 20px; */
+    border-bottom: 20px;
+        /* margin-left: 7rem; */
+    margin: 10px auto;
+}
+
+.item p {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.6;
+    padding: 0 10px;
+}
+
+
+.intro .button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #f10000;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.intro .button:active {
+    transform: translateY(3px);
+    box-shadow: 0 2px 0 #006599;
+}
+
+.main .inner {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.main .cup {
+    flex: 1;
+    text-align: center;
+}
+
+.main .cup img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+.avail {
+    display: flex;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+.ife{
+    display: block;
+    text-align: center;
+    align-items: center;
+    right: 700px;
+    top: 40px;
+    margin-left: 20px;
+}
+.ife img{
+    width: 200px;
+    border-radius: 10%;
+    border: 2px solid white;
+    
+}
+.ife img:hover{
+    
+}
+.avail .li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.avail ul .li {
+    padding: 0.5em 0;
+}
+.avail ul .ul{
+    font-weight: bold;
+    list-style: ;
+}
+
+.avail .button {
+    display: inline-block;
+    background-color: #f10000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.avail .button:active {
+    transform: translateY(3px);
+    box-shadow: 0 2px 0 #006599;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.testimonial-container blockquote {
+    padding: 1em;
+    border: 1px solid #FFA07A;
+    background-color: #1A1A1A;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.contact-content .column {
+    flex: 1;
+    min-width: 200px;
+}
+
+.contact-content .right form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-content .right form label {
+    font-size: 1em;
+    color: #fff;
+}
+
+.contact-content .right form input,
+.contact-content .right form textarea {
+    padding: 10px;
+    border: 2px solid #b3b3b3;
+    border-radius: 6px;
+    background-color: #333;
+    color: #fff;
+}
+
+.contact-content .right form button {
+    padding: 10px;
+    color: #fff;
+    background: #8B0A1A;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background 0.3s;
+}
+
+.contact-content .right form button:hover {
+    background: #f10000;
+}
+.bloop{
+    font-size: 22px;
+    top: 10px;
+}
+.bloop a{
+    font-weight: bold;
+    text-decoration: underline
+    ;
+}
+footer {
+    background-color: #8B0A1A;
+    padding: 1em;
+    text-align: center;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    #hero {
+        padding: 3em 1em;
+    }
+    .intro .card .line{
+        font-size: 15px;
+    }
+    .intro .card-container, 
+    .car-container, 
+    .card-container, 
+    .skills .bars {
+        flex-direction: column;
+        align-items: center;
+    }
+    .avail ul li,
+    .contact-content .column {
+        width: 100%;
+    }
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .item {
+        justify-content: space-between;
+        width: 90%;
+        /* margin-left: 1490px; */
+        
+    }
+
+}
